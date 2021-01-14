@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/image-filter-editor/static/css/main.9252696d.chunk.css",
+    "main.js": "/image-filter-editor/static/js/main.7076aca7.chunk.js",
+    "main.js.map": "/image-filter-editor/static/js/main.7076aca7.chunk.js.map",
+    "runtime-main.js": "/image-filter-editor/static/js/runtime-main.d61feb4b.js",
+    "runtime-main.js.map": "/image-filter-editor/static/js/runtime-main.d61feb4b.js.map",
+    "static/js/2.0d244d83.chunk.js": "/image-filter-editor/static/js/2.0d244d83.chunk.js",
+    "static/js/2.0d244d83.chunk.js.map": "/image-filter-editor/static/js/2.0d244d83.chunk.js.map",
+    "static/js/3.f8192066.chunk.js": "/image-filter-editor/static/js/3.f8192066.chunk.js",
+    "static/js/3.f8192066.chunk.js.map": "/image-filter-editor/static/js/3.f8192066.chunk.js.map",
+    "index.html": "/image-filter-editor/index.html",
+    "static/css/main.9252696d.chunk.css.map": "/image-filter-editor/static/css/main.9252696d.chunk.css.map",
+    "static/js/2.0d244d83.chunk.js.LICENSE.txt": "/image-filter-editor/static/js/2.0d244d83.chunk.js.LICENSE.txt",
+    "static/media/example.983cae34.png": "/image-filter-editor/static/media/example.983cae34.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d61feb4b.js",
+    "static/js/2.0d244d83.chunk.js",
+    "static/css/main.9252696d.chunk.css",
+    "static/js/main.7076aca7.chunk.js"
+  ]
+}
