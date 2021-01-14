@@ -1,0 +1,24 @@
+.settings .button {
+	margin-top: 1vw;
+}
+.settings .default-button:hover {
+	background-color: black;
+}
+.settings .default-button:active {
+	background-color: blue;
+}
+.settings input[type='range'] {
+	overflow: hidden;
+	width: 15vw;
+	-webkit-appearance: none;
+	background-color: #000;
+	outline: none;
+}
+.settings input[type='range']::-webkit-slider-thumb {
+	width: 10px;
+	-webkit-appearance: none;
+	height: 10px;
+	background: #434343;
+	box-shadow: -80px 0 0 80px #6edb8c;
+	cursor: pointer;
+}

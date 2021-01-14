@@ -1,0 +1,42 @@
+.image input {
+	position: relative;
+	z-index: 1;
+	width: 11.5vw;
+	height: 3vw;
+	cursor: pointer;
+	opacity: 0;
+	margin-top: 3vw;
+	left: -6.5vw;
+}
+.image .input {
+	position: absolute;
+	top: 8vw;
+	left: 23vw;
+}
+.image input:hover + .input {
+	background-color: #6edb8c;
+}
+.image input:active + .input {
+	background-color: #91ffaf;
+}
+.image img {
+	height: 45vw;
+	width: 45vw;
+	object-fit: contain;
+}
+.image .container {
+	margin-top: 2vw;
+	height: 45vw;
+	width: 45vw;
+}
+.image .container div {
+	margin-top: 2vw;
+	height: 45vw;
+	width: 45vw;
+	background-color: black;
+}
+.image .sample {
+	position: absolute;
+	top: 8vw;
+	margin-left: 11vw;
+}

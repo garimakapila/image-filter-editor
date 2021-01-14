@@ -1,38 +1,52 @@
 .App {
-  text-align: center;
+	background-color: #222;
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.centered {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table {
+	display: table;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table-row {
+	display: table-row;
 }
-
-.App-link {
-  color: #61dafb;
+.table-cell {
+	display: table-cell;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+	background-color: white;
+	padding: 1vw;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+.settings-cell {
+	width: 30%;
+	vertical-align: middle;
+}
+.full-width {
+	width: 100%;
+}
+.button {
+	cursor: pointer;
+	display: inline-block;
+	color: black;
+	padding: 0.5vw 1vw;
+	font-size: 1.5vw;
+	font-weight: bold;
+	border-radius: 0.3vw;
+	background-color: #6edb8c;
+}
+.button:hover {
+	background-color: #91ffaf;
+}
+.button:active {
+	background-color: #6edb8c;
 }
